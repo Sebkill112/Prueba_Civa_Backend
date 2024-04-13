@@ -25,11 +25,11 @@ public class FutbolistaService {
 		return repo.findById(id);
 	}
 
-	public Futbolista grabarActualizaLibro(Futbolista futbolista) {
+	public Futbolista grabar(Futbolista futbolista) {
 		return repo.save(futbolista);
 	}
 
-	public void eliminaLibro(int id) {
+	public void eliminar(int id) {
 		repo.deleteById(id);
 	}
 
